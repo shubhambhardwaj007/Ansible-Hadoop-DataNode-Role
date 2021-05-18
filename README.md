@@ -2,7 +2,7 @@
 
 # Ansible-Hadoop-DataNode-Role
 
-An Ansible Role to Configure and setup [Hadoop](https://hadoop.apache.org/) Client Node.
+An Ansible Role to Configure and setup [Hadoop](https://hadoop.apache.org/) Data Node.
 
 Requirements
 ------------
