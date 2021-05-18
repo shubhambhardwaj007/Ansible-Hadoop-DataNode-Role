@@ -13,10 +13,11 @@ Role Variables
 --------------
 Available variables are listed below, along with default values (see vars/main.yml):
 ```
- Name_Node_Hdfs_Port: "9001"
- Job_Tracker_Mapreduce_Port: "9002"
+Name_Node_Hdfs_Port: "9001"
+Data_Node_Directory_Path: "/root/"
+
 ```
-The `Name_Node_Hdfs_Port` should be similar to exposed port by Hadoop Master Node.The `Job_Tracker_Mapreduce_Port` should be similar to exposed port by Hadoop Job Tracker Node.
+The `Name_Node_Hdfs_Port` should be similar to exposed port by Hadoop Master Node.The `Data_Node_Directory_Path` is the directory path to store HDFS data segments.
 
 Dependencies
 ------------
